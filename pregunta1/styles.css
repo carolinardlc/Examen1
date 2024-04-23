@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.content {
+  padding-left: 64px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  outline: none;
+  border: none;
+}
+
+.btn::after {
+  content: " >";
+}
+
+.btn-primary {
+  background: #9bf00b;
+  color: black;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #9bf00b;
+}
+
+.nav {
+  padding-left: 64px;
+  color: rgb(58, 58, 58);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  padding-left: 64px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer {
+  padding-left: 64px;
+  padding-right: 64px;
+  background-color: #f2f2f2;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  height: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
